@@ -1,0 +1,93 @@
+
+@font-face{
+    font-family:'batman';
+   src:url('batman.ttf.ttf')
+}
+
+ body{
+
+    margin: 0;
+    font-family: Arial, sans-serif;
+     background: url('transformer.jpg') no-repeat center center/cover ; 
+    
+     color: rgb(255, 253, 253);
+     overflow: hidden; /*  .....stops unwanted scrolling */
+}
+
+
+.logo {
+    position: absolute;
+    margin: 25px 50px;
+    left: 25px;
+}
+
+.logo img {
+    width: 80px;
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    font-size: 18px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;  /*underline nh ati */
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    top: 10%;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .logo-image {} */
+
+.title {
+    font-size: 30px;
+    /* font-family: 'Orbitron', sans-serif; */
+    color: #ffcc00;
+    text-align: center;
+    font-family: 'batman';
+    /* font-family: 'Exo 2', sans-serif; */
+    text-shadow: -10px 10px rgba(255, 0, 0, 0.254);
+}
+
+.subtitle {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.content {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.6hv;
+}
+.rlogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
